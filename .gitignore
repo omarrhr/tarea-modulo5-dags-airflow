@@ -1,0 +1,11 @@
+# Nunca subir la contrasena de aplicacion del correo
+.env
+
+logs/
+plugins/
+__pycache__/
+*.pyc
+
+# Artefactos que genera el propio pipeline
+dags/data/model/*.joblib
+dags/data/outputs/*.csv
